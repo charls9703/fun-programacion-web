@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="JS/javas.js"></script>
+	<title>proyecto 2</title>
+</head>
+
+<body>
+    
+	<article>
+        <fieldset>
+        	<form name="formulario1" action="#" onsubmit=" return validateForm()" method="post">
+            <legend>Formulario de Contacto</legend>
+            <label>Nombre:<br/>
+            <input type="text" name="Nombre"  size="30" maxlength="50" placeholder="Escriba su nombre" required pattern="[A-Za-z]+" /></label><br/>
+            <label>Apellido:<br/>
+            <input type="text" name="Apellido"  size="30" maxlength="50" placeholder="Escriba su apellido" required pattern="[A-Za-z]+"/></label><br/>
+            <label>Fecha de nacimiento:<br/>
+            <input type="date" name="Fecha" id="Fecha"  /></label><br/>
+            <label>Email:<br/>
+            <input type="text" name="Email"  size="30" maxlength="50" placeholder="Example@uniminuto.edu.co" required pattern=".+@uniminuto.edu.co" /></label>
+            <br/>
+            <br/>
+            <input type="submit" name="Enviar" value="Enviar" size="5" align="center" /> <br/>
+
+        	</form>
+        </fieldset>
+    </article>
+            <br/>
+            <br/>
+    <article>
+    	<fieldset>
+            <form name="formulario2" action="#" method="post">
+    		    <legend>Conversor De Grados</legend> <br>
+    		    <label> Ingrese los grados :
+                    <input type = "text" name = "Ingresar" id = "Ingresar"  placeholder = "Escriba los grados a convertir" required pattern ="[1-9]" /></label>
+                <form action="sele" method="post">
+                    <select id="tipo">              
+                        <option value="0">Opciones</option>
+                        <option value="1">Centigrados</option>
+                        <option value="2">Fahrenheit</option>
+                    </select>
+                    <input type="button" name="enviar" id="enviar" value="calcular" onclick="convertir()" />
+                </form>
+    	</fieldset>
+    </article>
+            <br/>
+            <br/>
+    <article>
+        <fieldset>
+            <form name="formulario3" action="#" method="post">
+                <legend> Conversor de medidas</legend><br>
+                <label> Ingrese las medidas: 
+                    <input type="text" name=" medidas" id="medidas" placeholder = "Escriba las medidas a convertir" required pattern ="[1-9]"/> </label>
+                 <form action="sele" method="post">
+                    <select id="clase">              
+                        <option value="0">Opciones</option>
+                        <option value="1">Millas</option>
+                        <option value="2">Kilometros</option>
+                    </select>
+                    <input type="button" name="enviar" id="enviar" value="calcular" onclick="convert()" />
+                </form>        
+            </form>
+        </fieldset>
+    </article>
+</body>
+</html>
