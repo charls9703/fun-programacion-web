@@ -1,0 +1,35 @@
+body{
+	background-color: #AAAC62;
+}
+header{
+	background-color: #3A41CA;
+	height: 30%;
+	width: 80%;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	font-size: 24pt;
+}
+.art{
+    height: 70%;
+	width: 80%;
+	margin: 10px auto 10px auto;
+	border: 1px double #000;
+	position: center; 
+	padding: 20px;
+	background-color: #CA3A45;
+    box-sizing: border-box;
+    font-size:18pt; 
+    font-family:'Permanent Marker', cursive ;
+}
+#art{
+	height: 70%;
+	width: 80%;
+	margin: 10px auto 10px auto;
+	border: 1px double #000;
+	position: center; 
+	padding: 20px;
+	background-color: #CA3A45;
+    box-sizing: border-box;
+    font-size:18pt; 
+   
+}
